@@ -1,0 +1,66 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:119246389547847476",
+      "lastPropertyId": "3:6867585107246830064",
+      "name": "ShopOrder",
+      "properties": [
+        {
+          "id": "1:6494411519719804728",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7607064407914100963",
+          "name": "price",
+          "type": 6
+        },
+        {
+          "id": "3:6867585107246830064",
+          "name": "coustomerId",
+          "indexId": "1:4494759562936127666",
+          "type": 11,
+          "flags": 520,
+          "relationTarget": "Coustomer"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:5849393881434654679",
+      "lastPropertyId": "2:3763966937100322730",
+      "name": "Coustomer",
+      "properties": [
+        {
+          "id": "1:3087382207944799516",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3763966937100322730",
+          "name": "name",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:5849393881434654679",
+  "lastIndexId": "1:4494759562936127666",
+  "lastRelationId": "1:5678252513796918845",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [
+    5678252513796918845
+  ],
+  "version": 1
+}
